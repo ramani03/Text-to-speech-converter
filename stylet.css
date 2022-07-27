@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #52B2BF;
+    justify-content: center;
+}
+.main{
+    border-radius: 8px;
+    padding: 30px 35px;
+    width: 400px;
+    background-color: lavender;
+
+}
+.main header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+}
+.main form{
+    margin: 40px 0 25px;
+}
+form .row{
+    display: flex;
+    flex-direction: column;
+
+}
+form .row label{
+    margin-top: 10px;
+    margin-bottom: 6px;
+    font-size: 20px;
+}
+form :where(textarea,select,button){
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    
+}
+form .row textarea{
+border: 1px solid gray;
+resize: none;
+height: 110px;
+font-size: 14px;
+padding: 7px 10px;
+}
+
+form .row .lan{
+    height: 50px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+}
+.opt{
+    background-color: lavender;
+    font-size: 16px;
+}
+form button{
+    height: 55px;
+    background-color: black;
+    color: white;
+    margin-top: 13px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
